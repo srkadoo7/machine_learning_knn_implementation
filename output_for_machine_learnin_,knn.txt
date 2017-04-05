@@ -1,0 +1,119 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\srkadoo7>cd Downloads
+
+C:\Users\srkadoo7\Downloads>python knn.py
+Train set: 26
+Test set: 8
+> predicted='hit', actual='hit'
+> predicted='hit', actual='\thit'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='\tflop', actual='\tflop'
+Accuracy: 87.5%
+
+C:\Users\srkadoo7\Downloads>python knn.py
+Train set: 29
+Test set: 5
+> predicted='hit', actual='\thit'
+> predicted='hit', actual='hit'
+> predicted='hit', actual='hit'
+> predicted='flop', actual='flop'
+> predicted='\tflop', actual='\tflop'
+Accuracy: 80.0%
+
+C:\Users\srkadoo7\Downloads>python knn.py
+Train set: 24
+Test set: 10
+> predicted='hit', actual='\thit'
+> predicted='hit', actual='hit'
+> predicted='hit', actual='hit'
+> predicted='hit', actual='hit'
+> predicted='hit', actual='hit'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='\thit'
+> predicted='flop', actual='flop'
+Accuracy: 80.0%
+
+C:\Users\srkadoo7\Downloads>python knn.py
+Train set: 26
+Test set: 8
+> predicted='hit', actual='hit'
+> predicted='hit', actual='hit'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='hit'
+> predicted='flop', actual='\tflop'
+> predicted='flop', actual='flop'
+> predicted='\tflop', actual='\tflop'
+> predicted='flop', actual='\tflop'
+Accuracy: 62.5%
+
+C:\Users\srkadoo7\Downloads>python knn.py
+Train set: 27
+Test set: 7
+> predicted='hit', actual='\thit'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='hit'
+> predicted='flop', actual='\thit'
+> predicted='flop', actual='\tflop'
+> predicted='\tflop', actual='\tflop'
+> predicted='\tflop', actual='\tflop'
+Accuracy: 42.857142857142854%
+
+C:\Users\srkadoo7\Downloads>python knn.py
+Train set: 22
+Test set: 12
+> predicted='hit', actual='hit'
+> predicted='hit', actual='hit'
+> predicted='hit', actual='\thit'
+> predicted='hit', actual='hit'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='\thit', actual='flop'
+> predicted='\thit', actual='flop'
+> predicted='flop', actual='\tflop'
+> predicted='\tflop', actual='\tflop'
+Accuracy: 66.66666666666666%
+
+C:\Users\srkadoo7\Downloads>python knn.py
+Train set: 22
+Test set: 12
+> predicted='hit', actual='\thit'
+> predicted='hit', actual='hit'
+> predicted='hit', actual='hit'
+> predicted='hit', actual='hit'
+> predicted='hit', actual='hit'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='\tflop', actual='flop'
+> predicted='\tflop', actual='flop'
+> predicted='\tflop', actual='flop'
+> predicted='\tflop', actual='flop'
+> predicted='\tflop', actual='\tflop'
+Accuracy: 58.333333333333336%
+
+C:\Users\srkadoo7\Downloads>
+C:\Users\srkadoo7\Downloads>python knn.py
+Train set: 24
+Test set: 10
+> predicted='hit', actual='hit'
+> predicted='hit', actual='hit'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='flop'
+> predicted='flop', actual='\tflop'
+> predicted='\tflop', actual='\tflop'
+> predicted='\tflop', actual='\tflop'
+> predicted='\tflop', actual='\tflop'
+Accuracy: 90.0%
+
+C:\Users\srkadoo7\Downloads>
