@@ -57,12 +57,12 @@ def main():
 	trainingSet=[]
 	testSet=[]
 	split = 0.67
-	loadDataset('movie.data', split, trainingSet, testSet)
+	loadDataset("movies_dataset.csv", split, trainingSet, testSet)
 	print 'Train set: ' + repr(len(trainingSet))
 	print 'Test set: ' + repr(len(testSet))
 	# generate predictions
 	predictions=[]
-	k = 3
+	k=4
 	for x in range(len(testSet)):
 		neighbors = getNeighbors(trainingSet, testSet[x], k)
 		result = getResponse(neighbors)
@@ -70,5 +70,13 @@ def main():
 		print('> predicted=' + repr(result) + ', actual=' + repr(testSet[x][-1]))
 	accuracy = getAccuracy(testSet, predictions)
 	print('Accuracy: ' + repr(accuracy) + '%')
+	
+	
+	testSet2=([80,9,9,8],[25,5,1,3],[99,9,9,9])
+	for x in range(len(testSet2)):
+		neighbors = getNeighbors(trainingSet, testSet2[x], k)
+		result2 = getResponse(neighbors)
+		predictions.append(result2)
+		print('> predicted movie result is =' + repr(result2))
 	
 main()
